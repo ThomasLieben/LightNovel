@@ -24,7 +24,7 @@ twitter_username: Shadow_Liberty
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-text-theme
 plugins:
   - jekyll-feed
 
