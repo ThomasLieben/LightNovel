@@ -18,13 +18,13 @@ email: truethomaslieben+business@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A web novel / light novel written by an otaku with a lot of imagination.
 baseurl: "/LightNovel" # the subpath of your site, e.g. /blog
-url: "https://thomas-lieben.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thomas-lieben.com" # the base hostname & protocol for your site, e.g.
 twitter_username: Shadow_Liberty
 #github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: jekyll-text-theme
+theme: tale
 plugins:
   - jekyll-feed
 
@@ -40,8 +40,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#permalink:  /:year-:month-:day/:title
-#paginate:   5
+permalink:  /:year-:month-:day/:title
+paginate:   5
 
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright
+#text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+#highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright
