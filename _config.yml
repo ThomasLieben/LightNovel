@@ -24,7 +24,7 @@ twitter_username: Shadow_Liberty
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: tale
 plugins:
   - jekyll-feed
 
@@ -40,8 +40,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#permalink:  /:year-:month-:day/:title
-#paginate:   5
+permalink:  /:year-:month-:day/:title
+paginate:   5
 
 #text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 #highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright
