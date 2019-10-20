@@ -17,7 +17,7 @@ title: The Hero Without a Past
 email: truethomaslieben+business@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A web novel / light novel written by an otaku with a lot of imagination.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/LightNovel" # the subpath of your site, e.g. /blog
 url: "https://thomas-lieben.com" # the base hostname & protocol for your site, e.g.
 twitter_username: Shadow_Liberty
 #github_username:  jekyll
