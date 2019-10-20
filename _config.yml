@@ -24,7 +24,7 @@ twitter_username: Shadow_Liberty
 
 # Build settings
 markdown: kramdown
-theme: tale
+#theme: tale
 plugins:
   - jekyll-feed
 
@@ -40,7 +40,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#remote_theme: chesterhow/tale
+remote_theme: chesterhow/tale
 
 permalink:    /:year-:month-:day/:title
 paginate:     5
