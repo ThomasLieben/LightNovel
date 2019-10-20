@@ -70,7 +70,7 @@ else
 end
 
 context = {
-  asset_root: 'LightNovel/assets',
+  asset_root: '/assets',
   base_url: '/',
   gfm: true
 }
