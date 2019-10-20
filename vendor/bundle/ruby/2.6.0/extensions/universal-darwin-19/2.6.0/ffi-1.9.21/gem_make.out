@@ -1,0 +1,29 @@
+current directory: /Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20191020-48423-1dlhljy.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... no
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c
+make "DESTDIR="
+mkdir -p "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64; (if [ ! -f "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64/configure ]; then echo "Running autoreconf for libffi"; cd "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c/libffi" && /bin/sh /Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c/libffi/autogen.sh > /dev/null; fi); (if [ ! -f "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64/Makefile ]; then echo "Configuring libffi for x86_64"; cd "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64 && env CC=" xcrun clang" CFLAGS="-arch x86_64 " LDFLAGS="-arch x86_64" "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c/libffi"/configure --disable-static --with-pic=yes --disable-dependency-tracking --disable-docs --host=x86_64-apple-darwin > /dev/null; fi); env MACOSX_DEPLOYMENT_TARGET=10.4 /Library/Developer/CommandLineTools/usr/bin/make -C "/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64
+Running autoreconf for libffi
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal -I m4 --output=aclocal.m4t
+Can't exec "aclocal": No such file or directory at /usr/local/Cellar/autoconf/2.69/share/autoconf/Autom4te/FileUtils.pm line 326.
+autoreconf: failed to run aclocal: No such file or directory
+Configuring libffi for x86_64
+env: /Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c/libffi/configure: No such file or directory
+make[1]: *** No targets specified and no makefile found.  Stop.
+make: *** ["/Users/Thomas/Documents/Websites/lightnovel/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.21/ext/ffi_c"/libffi-x86_64/.libs/libffi_convenience.a] Error 2
+
+make failed, exit code 2
